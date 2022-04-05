@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Microverse project , Starting project of mobile version skeleton.\r Built from Figma.com Microverse learning template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillyStorm/bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillyStorm/bootstrap/issues"
+  },
+  "homepage": "https://github.com/WillyStorm/bootstrap#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "bootstrap": "^5.1.3",
+    "yarn": "^1.22.18"
+  }
+}
