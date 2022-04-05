@@ -1,5 +1,5 @@
 # Introduction to bootstrap
-Microverse project , Bootstratp insstal, and managing
+Microverse project , Bootstrap install, and managing.
 
 ## Built With
 
@@ -21,7 +21,7 @@ Microverse project , Bootstratp insstal, and managing
 
 git clone https://github.com/WillyStorm/bootstrap.git
 
-cd PortFolioMobile
+cd bootstrap
 
 ### Setup
 
