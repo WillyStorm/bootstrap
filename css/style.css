@@ -46,7 +46,7 @@ ul {
 }
 
 .languages {
-    padding: 6px 10px 6px 10px;
+    padding: 0.5vw 1vw 0.5vw 1vw;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -90,26 +90,26 @@ ul {
     background-position-x: right;
 }
 
+.bigbox > ul {
+    margin: 20px;
+}
+
 .box1 {
     grid-row: 1;
     grid-column: 1;
     background-color: #1c528a;
-    background-image: url(./images/taraba.png);
-    z-index: 5;
 }
 
 .box2 {  
     grid-row: 1;
     grid-column: 2;
     background-color: #e2505c;
-    background-image: url(./images/frame.png);
 }
 
 .box3 {
     grid-row: 2;
     grid-column: 1;
     background-color: #febf52;
-    background-image: url(./images/bulb.png);
 }
 
 .bigbox > li > h3 {
@@ -181,3 +181,28 @@ li > span::before {
     width: 100%;
     margin: 10% 0 5% 0;
 }
+
+.img2 {
+    background-image: url(./images/1.png);
+}
+
+.img3 {
+    background-image: url(./images/2.png);
+}
+
+.img4 {
+    background-image: url(./images/3.png);
+}
+
+.img5 {
+    background-image: url(./images/4.png);
+}
+
+.img6 {
+    background-image: url(./images/5.png);
+}
+
+.img7 {
+    background-image: url(./images/6.png);
+}
+
