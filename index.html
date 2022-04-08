@@ -10,9 +10,21 @@
     <title>Bootstrap</title>
 </head>
 <body>
+   
+
     <Section class="container" id="Hello">
+        
         <div class="col-12">
-            <nav><hr><br><hr></nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid" style="text-align: center; justify-content: center; color: black;">
+                  <a class="nav-link" href="#Hallo">Home</a>
+                   <a class="nav-link" href="#Features">Features</a>
+                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                   </div>
+                  </div>
+                </div>
+              </nav>
         </div>
         <div class="row">
         <div class="col-6">
@@ -86,13 +98,31 @@
     <Section class="container" id="Contact">
         <div class="row">
             <div class="col-3"></div>
-            <div class="col-6"><h2>Get started</h2><br><br><br><br><br><br><br><br><br><hr></div>
+            <div class="col-6"><h2>Get started</h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
             <div class="col-3"></div>
+           
         </div>
             <div class="footer-background d-flex justify-content-around align-items-center">
                 <div>
                     <button type="button" class="rectangle left gone">Get my Resume<img src="images/download-blue.png" alt="download"></button>
                 </div> 
+                
                 <div>
                     <ul class="d-flex flex-row align-items-center">
                     <li class="p-2"><img src="images/stack.png" alt="Stack-profile"></li>
