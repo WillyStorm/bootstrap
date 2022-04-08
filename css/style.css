@@ -22,11 +22,18 @@ h3 {
     color: #fff;
 }
 
-#grid2 {
-    background-image: url(./images/geometryBig.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+.max80{
+    bottom: 0;
+    align-self: center;
+    -webkit-transform: scale(0.8); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.8); /* FF3.5+ */
+      -ms-transform: scale(0.8); /* IE9 */
+       -o-transform: scale(0.8); /* Opera 10.5+ */
+        transform: scale(0.8);
+             /* IE6–IE9 */
+            filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}​
+
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -98,6 +105,10 @@ ul {
     grid-row: 1;
     grid-column: 1;
     background-color: #1c528a;
+}
+
+.goup{
+    margin-top:-50%;
 }
 
 .box2 {  
